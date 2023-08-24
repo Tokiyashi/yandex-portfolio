@@ -1,5 +1,6 @@
 import Intro from "./pages/Intro";
 import About from "./pages/About";
+import CssTrick from "@/pages/CssTrick";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Intro/>
       <About/>
+      <CssTrick/>
     </>
   )
 }
