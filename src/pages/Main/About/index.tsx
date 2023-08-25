@@ -4,7 +4,7 @@ import lastPhoto from '@/assets/lastPhoto.jpg'
 import Container from "./styles/Container";
 import Page from "@/common/styles/Page";
 import MainContent from "./styles/MainContent";
-import MyLastPhoto from "@/pages/About/styles/MyLastPhoto";
+import MyLastPhoto from "@/pages/Main/About/styles/MyLastPhoto";
 
 const About = () => {
   return (

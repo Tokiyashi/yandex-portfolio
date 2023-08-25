@@ -1,4 +1,4 @@
-import Page from "../../common/styles/Page";
+import Page from "../../../common/styles/Page";
 import Greetings from "./Greetings";
 import Image from "@/common/styles/Image"
 import star from "@/assets/star.png"

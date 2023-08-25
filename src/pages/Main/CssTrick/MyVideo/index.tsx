@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player";
 import Container from "./styles/Container";
-import VideoWrapper from "@/pages/CssTrick/MyVideo/styles/VideoWrapper";
+import VideoWrapper from "@/pages/Main/CssTrick/MyVideo/styles/VideoWrapper";
 import Image from "@/common/styles/Image";
 import cursor from "@/assets/cursor.svg";
 import {Typography} from "@mui/material";

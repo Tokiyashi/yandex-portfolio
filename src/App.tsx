@@ -1,15 +1,14 @@
-import Intro from "./pages/Intro";
-import About from "./pages/About";
-import CssTrick from "@/pages/CssTrick";
+import {Route, Router, Routes} from 'react-router-dom';
+import Main from "@/pages/Main";
+import GuessTheNumber from "@/pages/GuessTheNumber";
 
 function App() {
 
   return (
-    <>
-      <Intro/>
-      <About/>
-      <CssTrick/>
-    </>
+      <Routes>
+        <Route path='/*' element={<Main/>}/>
+        <Route path='/guess-the-number' element={<GuessTheNumber/>}/>
+      </Routes>
   )
 }
 

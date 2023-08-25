@@ -1,5 +1,5 @@
 import {styled} from "@mui/material";
-import Image from '../../../../../common/styles/Image'
+import Image from '../../../../../../common/styles/Image'
 
 const OverflowingImage= styled(Image)`
   margin-top: -14rem;

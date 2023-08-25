@@ -4,7 +4,7 @@ import Container from "./styles/Container";
 import MyName from "./styles/MyName";
 import Image from "@/common/styles/Image";
 import cursor from "@/assets/cursor.svg";
-import SubTextContainer from "@/pages/Intro/Greetings/HelloText/styles/SubTextContainer";
+import SubTextContainer from "@/pages/Main/Intro/Greetings/HelloText/styles/SubTextContainer";
 
 const HelloText = () => {
 
