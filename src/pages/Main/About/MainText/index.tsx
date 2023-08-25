@@ -2,7 +2,6 @@ import {Typography, useTheme} from "@mui/material";
 import Container from "./styles/Container";
 
 const MainText = () => {
-  const theme = useTheme()
 
   return (
     <Container>

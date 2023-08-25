@@ -16,10 +16,10 @@ const CssTrick = () => {
   return (
     <Page>
       <MainContent>
-        <ShadowedHeader> Учить CSS - Интересно! </ShadowedHeader>
+        <ShadowedHeader>Учить CSS - Интересно!</ShadowedHeader>
         <MyVideo/>
         <TaskButton onClick={handleNavigate} variant='contained'>
-          <Typography> К Заданию!</Typography>
+          <Typography>К Заданию!</Typography>
         </TaskButton>
       </MainContent>
     </Page>

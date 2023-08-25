@@ -15,7 +15,7 @@ const HelloText = () => {
       </HelloContainer>
       <MyName>Никита Роговский</MyName>
       <SubTextContainer >
-        <Typography fontWeight='bold' fontSize='2.4rem'>Фронтенд - разработчик</Typography>
+        <Typography fontWeight='bold' fontSize='2.4rem'>Фронтенд - Разработчик</Typography>
       </SubTextContainer>
       <Image height='5rem' src={cursor}/>
     </Container>

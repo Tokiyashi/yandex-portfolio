@@ -13,7 +13,8 @@ export function createCustomTheme() {
         dark: '#fdba1e'
       },
       background: {
-        default: '#ffffff'
+        default: '#ffffff',
+        paper: '#87CEEB'
       }
     }
   })

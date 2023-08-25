@@ -5,10 +5,13 @@ import Container from "./styles/Container";
 import Page from "@/common/styles/Page";
 import MainContent from "./styles/MainContent";
 import MyLastPhoto from "@/pages/Main/About/styles/MyLastPhoto";
+import {useTheme} from "@mui/material";
 
 const About = () => {
+  const theme = useTheme()
+
   return (
-    <Page sx={{backgroundColor:'#87CEEB'}} >
+    <Page sx={{backgroundColor: theme.palette.background.paper}}>
       <Container>
         <MainContent>
           <MainText/>
