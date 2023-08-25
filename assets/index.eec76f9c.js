@@ -177,7 +177,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   justify-content: space-between;
   height: 50%;
   margin: auto;
-`;var C_="/yandex-portfolio/assets/me.5e4ac14b.png";const k_=K(Fe)`
+`;var C_="/assets/me.5e4ac14b.png";const k_=K(Fe)`
   display: flex;
   background-color: ${({theme:e})=>e.palette.primary.main};
   width: 40rem;
@@ -217,7 +217,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   font-weight: bold;
   font-size: 8rem;
   text-shadow: ${({theme:e})=>e.palette.primary.main} 0.4rem 0.2rem 0;
-`;var Hm="/yandex-portfolio/assets/cursor.8cf66070.svg";const D_=K(Fe)`
+`;var Hm="/assets/cursor.8cf66070.svg";const D_=K(Fe)`
   display: flex;
   padding: 1rem;
   border-radius: 1.5rem;
@@ -237,7 +237,7 @@ Add a <Suspense fallback=...> component higher in the tree to provide a loading 
   min-width: 20rem;
   border: 0.5rem solid black;
   border-radius: 2rem;
-`;var j_="/yandex-portfolio/assets/meAtSchool.6c11fd78.jpg",Km="/yandex-portfolio/assets/Vector 7.76c36140.svg",qm="/yandex-portfolio/assets/Vector 8.aefd6f2d.svg";const W_=()=>le(z_,{children:[U(U_,{cover:!0,src:j_}),U(sn,{width:"35rem",height:"20rem",src:qm,children:U(sn,{width:"35rem",height:"20rem",src:Km})})]});var V_="/yandex-portfolio/assets/lastPhoto.2b3c4963.jpg";const H_=K(Fe)`
+`;var j_="/assets/meAtSchool.6c11fd78.jpg",Km="/assets/Vector 7.76c36140.svg",qm="/assets/Vector 8.aefd6f2d.svg";const W_=()=>le(z_,{children:[U(U_,{cover:!0,src:j_}),U(sn,{width:"35rem",height:"20rem",src:qm,children:U(sn,{width:"35rem",height:"20rem",src:Km})})]});var V_="/assets/lastPhoto.2b3c4963.jpg";const H_=K(Fe)`
   display: flex;
   justify-content: space-between;
   padding-top: 10rem;
