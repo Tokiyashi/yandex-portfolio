@@ -8,7 +8,7 @@ import MyLastPhoto from "@/pages/Main/About/styles/MyLastPhoto";
 
 const About = () => {
   return (
-    <Page>
+    <Page sx={{backgroundColor:'#87CEEB'}} >
       <Container>
         <MainContent>
           <MainText/>

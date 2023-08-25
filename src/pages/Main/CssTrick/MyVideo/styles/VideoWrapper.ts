@@ -6,5 +6,6 @@ const VideoWrapper= styled(Box)`
   margin: auto;
   border-radius: 3rem;
   overflow: hidden;
+  background-color: black;
 `;
 export default VideoWrapper;

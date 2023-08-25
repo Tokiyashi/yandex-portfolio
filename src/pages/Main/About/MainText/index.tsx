@@ -6,7 +6,7 @@ const MainText = () => {
 
   return (
     <Container>
-      <Typography fontWeight='bold' color={theme.palette.primary.dark} fontSize='3rem'>Почему именно IT?</Typography>
+      <Typography fontWeight='bold' fontSize='3rem'>Почему именно IT?</Typography>
       <Typography textAlign='justify' fontSize='1.6rem'>
         Я выбрал программирование в качестве любимого занятия потому, что я всегда любил создавать что-то новое. Мне
         нравится изучать интересные вещи и воплощать свои идеи в реальность. С раннего детства я проводил много времени

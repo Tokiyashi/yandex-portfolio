@@ -3,14 +3,13 @@ import Container from "./styles/Container";
 import VideoWrapper from "@/pages/Main/CssTrick/MyVideo/styles/VideoWrapper";
 import Image from "@/common/styles/Image";
 import cursor from "@/assets/cursor.svg";
-import {Typography} from "@mui/material";
 
 const Video = () => {
   return (
     <Container>
       <VideoWrapper>
         <ReactPlayer
-          url='videos/vid.mp4'
+          url='videos/videoGuide.mp4'
           width='100%'
           height='100%'
           controls={true}

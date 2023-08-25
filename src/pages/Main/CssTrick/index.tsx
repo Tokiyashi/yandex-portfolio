@@ -1,6 +1,6 @@
 import Page from "@/common/styles/Page";
 import MyVideo from "@/pages/Main/CssTrick/MyVideo";
-import ShadowedHeader from "@/pages/Main/CssTrick/styles/ShadowedHeader";
+import ShadowedHeader from "@/common/styles/ShadowedHeader";
 import {Typography} from "@mui/material";
 import TaskButton from "./styles/TaskButton";
 import MainContent from "./styles/MainContent";

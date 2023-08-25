@@ -3,8 +3,9 @@ import {Box, styled} from "@mui/material";
 const MainContent = styled(Box)`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 4rem;
+  padding: 2rem;
+  overflow: hidden;
 `;
 export default MainContent;

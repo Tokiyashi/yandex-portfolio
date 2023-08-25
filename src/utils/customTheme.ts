@@ -5,14 +5,15 @@ export function createCustomTheme() {
     palette: {
       primary: {
         main: '#ec3a53',
-        light: '#fc8392',
+        light: '#FF7A5C',
         dark: '#611f3e'
       },
       secondary: {
-        main: '#f4a655',
+        main: '#F4D738',
+        dark: '#fdba1e'
       },
       background: {
-        default: '#c1ccd5'
+        default: '#ffffff'
       }
     }
   })

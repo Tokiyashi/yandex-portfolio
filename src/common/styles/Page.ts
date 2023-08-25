@@ -10,6 +10,5 @@ const Page = styled(Box)`
   justify-content: flex-start;
   padding: 0 14rem;
   gap: 3rem;
-  background-color: ${({theme}) => theme.palette.background.default}
 `;
 export default Page;

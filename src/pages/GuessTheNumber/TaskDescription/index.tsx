@@ -1,15 +1,25 @@
 import Container from "./styles/Container";
-import {Typography} from "@mui/material";
+import {Box, Typography} from "@mui/material";
+import Image from "@/common/styles/Image";
+import coloredArrow from "@/assets/Vector 8.svg";
+import arrow from "@/assets/Vector 7.svg";
 
 const TaskDescription = () => {
 
   return (
     <Container>
-      <Typography fontWeight='bold' fontSize='2rem'>Игра "Угадай число"</Typography>
-      <Typography fontSize='1rem' textAlign='justify'>Цель вашего задания - разработать приложение, которое будет загадывать случайное
-        число, игрок должен
-        ввести число, которое, на его взгляд загадала игра, а игра в свою очередь должна написать верно ли угадано
-        число, в случае если нет, то сравнить число с загаданным</Typography>
+      <Box>
+        <Typography fontSize='3rem'>Задание</Typography>
+        <Typography width='80%' fontSize='1.6rem' textAlign='justify'>Ваша задача - создать приложение, которое
+          генерирует
+          случайное
+          число, а пользователь должен попробовать угадать его. Приложение проверяет, было ли угадано число и сообщает
+          пользователю, правильно ли он угадал, или же подсказывает, какое число было загадано.
+        </Typography>
+      </Box>
+      <Image width='35rem' height='20rem' src={coloredArrow}>
+        <Image width='35rem' height='20rem' src={arrow}/>
+      </Image>
     </Container>
   );
 };

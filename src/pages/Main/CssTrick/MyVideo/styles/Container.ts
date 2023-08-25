@@ -2,10 +2,10 @@ import {Box, styled} from "@mui/material";
 
 const Container = styled(Box)`
   display: flex;
-  height: 50%;
-  width: 80%;
-  margin: auto;
+  height:70%;
+  width: 100%;
   border-radius: 3rem;
+  justify-content: space-between;
   flex-direction: column;
   align-items: flex-end;
 `;

@@ -5,7 +5,7 @@ const MyLastPhoto = styled(Image)`
   min-height: 20rem;
   height: 50rem;
   min-width: 30%;
-  border-radius: 10rem;
+  border-radius: 4rem;
   border: 0.8rem solid ${({theme}) => theme.palette.secondary.main};
 `;
 export default MyLastPhoto;
