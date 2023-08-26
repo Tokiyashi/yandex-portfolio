@@ -7,5 +7,9 @@ const Container = styled(Box)`
   flex-direction: column;
   align-items: flex-end;
   gap: 2rem;
+  
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 export default Container;

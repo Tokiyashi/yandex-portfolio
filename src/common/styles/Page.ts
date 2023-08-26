@@ -8,7 +8,7 @@ const Page = styled(Box)`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 14rem;
+  padding: 2rem;
   gap: 3rem;
 `;
 export default Page;

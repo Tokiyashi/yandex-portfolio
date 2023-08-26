@@ -6,9 +6,11 @@ import Page from "@/common/styles/Page";
 import MainContent from "./styles/MainContent";
 import MyLastPhoto from "@/pages/Main/About/styles/MyLastPhoto";
 import {useTheme} from "@mui/material";
+import {useIsMobile} from "@/utils/hooks/useIsMobile";
 
 const About = () => {
   const theme = useTheme()
+  const isMobile = useIsMobile()
 
   return (
     <Page sx={{backgroundColor: theme.palette.background.paper}}>
@@ -17,7 +19,7 @@ const About = () => {
           <MainText/>
           <Images/>
         </MainContent>
-        <MyLastPhoto cover src={lastPhoto}/>
+        {!isMobile && <MyLastPhoto src={lastPhoto}/>}
       </Container>
     </Page>
   );

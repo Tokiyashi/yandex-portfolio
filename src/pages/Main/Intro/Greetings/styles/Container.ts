@@ -4,8 +4,12 @@ const Container = styled(Box)`
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: space-between;
-  height: 50%;
-  margin: auto;
+  justify-content: center;
+  gap: 8rem;
+  height: 100%;
+  
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
 export default Container;

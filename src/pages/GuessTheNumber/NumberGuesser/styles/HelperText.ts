@@ -11,5 +11,10 @@ const HelperText = styled(Box)`
   margin-top: -2.5rem;
   margin-left: -3rem;
   padding: 1rem 1.5rem;
+
+  @media (max-width: 1000px) {
+    margin-left: -1rem;
+  }
+  
 `;
 export default HelperText;

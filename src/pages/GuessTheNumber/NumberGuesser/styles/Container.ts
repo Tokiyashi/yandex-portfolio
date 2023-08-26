@@ -13,5 +13,9 @@ const Container = styled(Box)`
   background-color: ${({theme}) => theme.palette.primary.light};
   height: 20rem;
   flex-direction: column;
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 export default Container;
